@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADEE8932B16475700DDBF6C /* Wall_Street_JournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEE8922B16475700DDBF6C /* Wall_Street_JournalApp.swift */; };
+		DADEE8952B16475700DDBF6C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEE8942B16475700DDBF6C /* HomeView.swift */; };
+		DADEE8972B16475900DDBF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADEE8962B16475900DDBF6C /* Assets.xcassets */; };
+		DADEE89A2B16475900DDBF6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADEE8992B16475900DDBF6C /* Preview Assets.xcassets */; };
+		DADEE8A42B16498000DDBF6C /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEE8A32B16498000DDBF6C /* Article.swift */; };
+		DADEE8AA2B164C0300DDBF6C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEE8A92B164C0300DDBF6C /* HomeViewModel.swift */; };
+		DADEE8AC2B16501200DDBF6C /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEE8AB2B16501200DDBF6C /* ArticleCell.swift */; };
+		DADEE8AF2B165BCD00DDBF6C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEE8AE2B165BCD00DDBF6C /* DetailsView.swift */; };
+		DADEE8B22B165E3700DDBF6C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEE8B12B165E3700DDBF6C /* ImageLoader.swift */; };
+		DADEE8B52B165F8800DDBF6C /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEE8B42B165F8800DDBF6C /* NewsService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DADEE88F2B16475700DDBF6C /* Wall Street Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wall Street Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEE8922B16475700DDBF6C /* Wall_Street_JournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wall_Street_JournalApp.swift; sourceTree = "<group>"; };
+		DADEE8942B16475700DDBF6C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DADEE8962B16475900DDBF6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADEE8992B16475900DDBF6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DADEE8A32B16498000DDBF6C /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		DADEE8A92B164C0300DDBF6C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DADEE8AB2B16501200DDBF6C /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		DADEE8AE2B165BCD00DDBF6C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		DADEE8B12B165E3700DDBF6C /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		DADEE8B42B165F8800DDBF6C /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADEE88C2B16475700DDBF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADEE8862B16475700DDBF6C = {
+			isa = PBXGroup;
+			children = (
+				DADEE8912B16475700DDBF6C /* Wall Street Journal */,
+				DADEE8902B16475700DDBF6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADEE8902B16475700DDBF6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE88F2B16475700DDBF6C /* Wall Street Journal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADEE8912B16475700DDBF6C /* Wall Street Journal */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8A22B16495800DDBF6C /* Models */,
+				DADEE8A02B16490D00DDBF6C /* App */,
+				DADEE8A12B16492C00DDBF6C /* Root */,
+				DADEE8B32B165F6C00DDBF6C /* Services */,
+				DADEE8B02B165E1A00DDBF6C /* Utilities */,
+				DADEE8962B16475900DDBF6C /* Assets.xcassets */,
+				DADEE8982B16475900DDBF6C /* Preview Content */,
+			);
+			path = "Wall Street Journal";
+			sourceTree = "<group>";
+		};
+		DADEE8982B16475900DDBF6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8992B16475900DDBF6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DADEE8A02B16490D00DDBF6C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8922B16475700DDBF6C /* Wall_Street_JournalApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DADEE8A12B16492C00DDBF6C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8A62B164B8400DDBF6C /* Details */,
+				DADEE8A52B164B7400DDBF6C /* Home */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DADEE8A22B16495800DDBF6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8A32B16498000DDBF6C /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DADEE8A52B164B7400DDBF6C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8A72B164BC800DDBF6C /* View */,
+				DADEE8A82B164BCE00DDBF6C /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DADEE8A62B164B8400DDBF6C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8AD2B165BBB00DDBF6C /* View */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		DADEE8A72B164BC800DDBF6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8942B16475700DDBF6C /* HomeView.swift */,
+				DADEE8AB2B16501200DDBF6C /* ArticleCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DADEE8A82B164BCE00DDBF6C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8A92B164C0300DDBF6C /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DADEE8AD2B165BBB00DDBF6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8AE2B165BCD00DDBF6C /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DADEE8B02B165E1A00DDBF6C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8B12B165E3700DDBF6C /* ImageLoader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DADEE8B32B165F6C00DDBF6C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DADEE8B42B165F8800DDBF6C /* NewsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADEE88E2B16475700DDBF6C /* Wall Street Journal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADEE89D2B16475900DDBF6C /* Build configuration list for PBXNativeTarget "Wall Street Journal" */;
+			buildPhases = (
+				DADEE88B2B16475700DDBF6C /* Sources */,
+				DADEE88C2B16475700DDBF6C /* Frameworks */,
+				DADEE88D2B16475700DDBF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wall Street Journal";
+			productName = "Wall Street Journal";
+			productReference = DADEE88F2B16475700DDBF6C /* Wall Street Journal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADEE8872B16475700DDBF6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DADEE88E2B16475700DDBF6C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DADEE88A2B16475700DDBF6C /* Build configuration list for PBXProject "Wall Street Journal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADEE8862B16475700DDBF6C;
+			productRefGroup = DADEE8902B16475700DDBF6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADEE88E2B16475700DDBF6C /* Wall Street Journal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADEE88D2B16475700DDBF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEE89A2B16475900DDBF6C /* Preview Assets.xcassets in Resources */,
+				DADEE8972B16475900DDBF6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADEE88B2B16475700DDBF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEE8B22B165E3700DDBF6C /* ImageLoader.swift in Sources */,
+				DADEE8952B16475700DDBF6C /* HomeView.swift in Sources */,
+				DADEE8B52B165F8800DDBF6C /* NewsService.swift in Sources */,
+				DADEE8932B16475700DDBF6C /* Wall_Street_JournalApp.swift in Sources */,
+				DADEE8A42B16498000DDBF6C /* Article.swift in Sources */,
+				DADEE8AC2B16501200DDBF6C /* ArticleCell.swift in Sources */,
+				DADEE8AA2B164C0300DDBF6C /* HomeViewModel.swift in Sources */,
+				DADEE8AF2B165BCD00DDBF6C /* DetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DADEE89B2B16475900DDBF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADEE89C2B16475900DDBF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADEE89E2B16475900DDBF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wall Street Journal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Wall-Street-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADEE89F2B16475900DDBF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wall Street Journal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Wall-Street-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADEE88A2B16475700DDBF6C /* Build configuration list for PBXProject "Wall Street Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEE89B2B16475900DDBF6C /* Debug */,
+				DADEE89C2B16475900DDBF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADEE89D2B16475900DDBF6C /* Build configuration list for PBXNativeTarget "Wall Street Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEE89E2B16475900DDBF6C /* Debug */,
+				DADEE89F2B16475900DDBF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADEE8872B16475700DDBF6C /* Project object */;
+}
